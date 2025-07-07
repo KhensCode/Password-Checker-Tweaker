@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  
+</head>
+<body>
+        <div class="container">
+            <h1>Password Tweaker</h1>
+            <label for="lengthInput" > Password Length:
+                <input type="number" id="lengthInput"/>
+            </label>
+
+            <div class="options">
+              <label ><input type="checkbox" id="upperCheck" checked>UpperCase (A-Z)</label>
+              <label><input type="checkbox" id="lowerCheck" checked>Lowercase (a-z)</label>
+              <label><input type="checkbox" id="numberCheck" checked>Numbers (0-9)</label>
+              <label><input type="checkbox" id="symbolCheck">Symbols (!@#...)</label>
+            </div>
+            <div id="generateBtn">Generate Password</div>
+            <div id="outputBox">
+                <p id="outputText">Your secure password will appear here </p>
+                <button id="copyBtn">Copy</button>
+            </div>
+        </div>
+</body>
+  <script src='main.js'></script>
+</html>
